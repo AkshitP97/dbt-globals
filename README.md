@@ -1,16 +1,13 @@
-Once you clone the repo 
+Once you clone the repo -
 
--- create virtual env
--- cd dbt_projects
--- dbt debug
+create virtual env
+cd dbt_projects
+dbt debug
 
 If connection is successful try - 
 
--- dbt run
+dbt run
 
-For models structure is - 
+For making new models follow this directory - 
 
-dbt_projects
-|_models
-|_test
-|_models.sql
+dbt_projects/models/test/.
