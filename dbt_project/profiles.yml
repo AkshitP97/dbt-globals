@@ -1,0 +1,13 @@
+dbt_project:
+  outputs:
+    dev:
+      dataset: dbt_global_table
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: rugged-lacing-410712
+      threads: 60
+      type: bigquery
+  target: dev
