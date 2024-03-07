@@ -3,7 +3,7 @@
 
 with data as (
     select
-        3 as value_a,
+        6 as value_a,
         1 as lower_bound,
         5 as upper_bound
 )
